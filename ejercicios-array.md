@@ -28,6 +28,23 @@ console.log(numerosMultiplicados); // [2, 4, 6, 8, 10]
 
 ```
 
+```js
+/*Para entender un poco más el ejemplo vamos a resolverlo sin el método map()*/
+
+function multNumeros(numeros){      //creo una funcion que recorra el arreglo y multiplique a cada elemento * 2
+    const numeroMultiplicados=[];   //creo el nuevo arreglo
+
+//recorro el arrelo y multiplico cada elemento * 2
+    for(let i = 0; i < numeros.length; i++){
+        numeroMultiplicados.push(numeros[i] * 2);
+    }
+    
+    return numeroMultiplicados;  //retorno el nuevo arreglo
+}
+const arr = multNumeros(numeros); //llamo a la funcion y le asigno el valor retornado a la constante arr
+console.log(arr);  //muestro el nuevo arreglo arr por consola
+```
+
 4. 
 
 
