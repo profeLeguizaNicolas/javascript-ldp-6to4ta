@@ -45,6 +45,31 @@ const arr = multNumeros(numeros); //llamo a la funcion y le asigno el valor reto
 console.log(arr);  //muestro el nuevo arreglo arr por consola
 ```
 
+```js
+//usando funcion anonima
+
+const arr = function (numeros) {
+  const numeroMultiplicados = [];
+  for (let i = 0; i < numeros.length; i++) {
+    numeroMultiplicados.push(numeros[i] * 2);
+  }
+  return numeroMultiplicados;
+};
+console.log(arr(numeros));
+
+```
+
+```js 
+const arr = numeros => {
+    const numeroMultiplicados = [];
+    for (let i = 0; i < numeros.length; i++) {
+        numeroMultiplicados.push(numeros[i] * 2);
+    }   
+    return numeroMultiplicados;
+}
+console.log(arr(numeros));
+```
+
 4. 
 
 
