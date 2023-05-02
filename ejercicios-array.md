@@ -82,6 +82,19 @@ console.log(numerosPares); // [2, 4, 6, 8, 10]
 
 ```
 
+```js
+const arr = (numeros) => {
+  const numerosPares = [];
+  for (let i = 0; i < numeros.length; i++) {
+    if (numeros[i] % 2 == 0) {
+      numerosPares.push(numeros[i]);
+    }
+  }
+  return numerosPares;
+}
+console.log(arr(numeros));
+```
+`
 5. 
 
 
