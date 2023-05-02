@@ -27,7 +27,7 @@ const numerosMultiplicados = numeros.map(numero => numero * 2);
 console.log(numerosMultiplicados); // [2, 4, 6, 8, 10]
 
 ```
-
+***Sin map()***
 ```js
 /*Para entender un poco más el ejemplo vamos a resolverlo sin el método map()*/
 
