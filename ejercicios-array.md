@@ -60,6 +60,7 @@ console.log(arr(numeros));
 ```
 
 ```js 
+//usando funcion flecha
 const arr = numeros => {
     const numeroMultiplicados = [];
     for (let i = 0; i < numeros.length; i++) {
@@ -70,7 +71,20 @@ const arr = numeros => {
 console.log(arr(numeros));
 ```
 
-4. 
+4. Crea un array con varios números y utiliza el método filter() para filtrar los números pares y almacenarlos en un nuevo array.
+
+```js
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const numerosPares = numeros.filter(numero => numero % 2 === 0);
+
+console.log(numerosPares); // [2, 4, 6, 8, 10]
+
+```
+
+5. 
+
+
 
 
 
