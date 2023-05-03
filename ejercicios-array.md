@@ -94,9 +94,17 @@ const arr = (numeros) => {
 }
 console.log(arr(numeros));
 ```
-`
-5. 
 
+5. Crea dos arrays con algunos números, y luego utiliza el método concat() para unir ambos arrays en uno solo.
+```js
+const numeros1 = [1, 2, 3];
+const numeros2 = [4, 5, 6];
+
+const numerosConcatenados = numeros1.concat(numeros2);
+
+console.log(numerosConcatenados); // [1, 2, 3, 4, 5, 6]
+
+```
 
 
 
