@@ -60,4 +60,22 @@ let personas = [  {nombre: 'Juan', edad: 25},  {nombre: 'María', edad: 15},  {n
 console.log(filtrarElementos(personas, esMayorAEdad)); // Output: [{nombre: 'Juan', edad: 25}, {nombre: 'Pedro', edad: 20}]
 
 ```
+Usando funcion flecha
+````js
+const filtrarElementos = (arr, condicion) => {
+  let nuevoArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (condicion(arr[i])) {
+      nuevoArr.push(arr[i]);
+    }
+  }
+  return nuevoArr;
+}
+
+const  esMayorAEdad = (persona) => persona.edad >= 18;
+
+let personas = [  {nombre: 'Juan', edad: 25},  {nombre: 'María', edad: 15},  {nombre: 'Pedro', edad: 20},  {nombre: 'Lucía', edad: 17}];
+
+console.log(filtrarElementos(personas, esMayorAEdad)); // Output: [{nombre: 'Juan', edad: 25}, {nombre: 'Pedro', edad: 20}]
+```
 
