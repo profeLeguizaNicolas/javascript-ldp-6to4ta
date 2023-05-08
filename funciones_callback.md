@@ -38,7 +38,7 @@ const esPositivo = num => num > 0;
 console.log(verificarElementos([1, 2, 3, 4, 5], esPositivo)); // Output: true
 console.log(verificarElementos([1, 2, 3, -4, 5], esPositivo)); // Output: false
 ```
-2. Escribe una función que acepte un arreglo de objetos *presonas* con las propiedades *nombre*, *edad* y una función callback que devuelva un nuevo arreglo con los elementos donde la ŕppiedad *edad* es mayor a 18.
+2. Escribe una función que acepte un arreglo de objetos *presonas* con las propiedades *nombre*, *edad* y una función callback que devuelva un nuevo arreglo con los elementos donde la propiedad *edad* es mayor a 18.
 
 ```js
 function filtrarElementos(arr, condicion) {
