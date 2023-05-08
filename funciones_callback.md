@@ -78,4 +78,9 @@ let personas = [  {nombre: 'Juan', edad: 25},  {nombre: 'María', edad: 15},  {n
 
 console.log(filtrarElementos(personas, esMayorAEdad)); // Output: [{nombre: 'Juan', edad: 25}, {nombre: 'Pedro', edad: 20}]
 ```
+Usando el método *filter*
+```js
 
+const objetoFiltrado = personas.filter(persona => persona.edad >= 18);
+console.log(objetoFiltrado); // Output: [{nombre: 'Juan', edad: 25}, {nombre: 'Pedro', edad: 20}]
+```
