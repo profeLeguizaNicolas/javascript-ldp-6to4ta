@@ -61,7 +61,7 @@ console.log(filtrarElementos(personas, esMayorAEdad)); // Output: [{nombre: 'Jua
 
 ```
 Usando funcion flecha
-````js
+```js
 const filtrarElementos = (arr, condicion) => {
   let nuevoArr = [];
   for (let i = 0; i < arr.length; i++) {
