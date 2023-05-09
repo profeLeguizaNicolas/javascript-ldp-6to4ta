@@ -85,7 +85,7 @@ const objetoFiltrado = personas.filter(persona => persona.edad >= 18);
 console.log(objetoFiltrado); // Output: [{nombre: 'Juan', edad: 25}, {nombre: 'Pedro', edad: 20}]
 ```
 
-4. Escribe una función que acepte un arreglo de números y una función callback que devuelva la suma de los elementos del arreglo que cumplen cierta condición de pares.
+3. Escribe una función que acepte un arreglo de números y una función callback que devuelva la suma de los elementos del arreglo que cumplen cierta condición de pares.
 
 ```js
 function sumarElementos(arr, condicion) {
@@ -105,6 +105,30 @@ function esPar(num) {
 console.log(sumarElementos([1, 2, 3, 4, 5], esPar)); // Output: 6 (2 + 4)
 
 ```
+Usando funcion flecha
+```js
+const sumarElementos = (arr, condicion) => {
+  let suma = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (condicion(arr[i])) {
+      suma += arr[i];
+    }
+  }
+  return suma;
+}
 
+const esPar = num => num % 2 === 0;
+
+console.log(sumarElementos([1, 2, 3, 4, 5], esPar)); // Output: 6 (2 + 4)
+
+```
+Usando el método *reduce*
+```js
+const pares = [1, 2, 3, 4, 5].filter(num => num % 2 === 0 );
+
+const sumaPares = pares.reduce((acumulador, valActual) =>  acumulador + valActual);
+
+console.log(sumaPares);
+```
 
 
