@@ -150,3 +150,22 @@ const sumatoria = array.reduce((acum, item, index, arr) => {
 
 console.log(sumatoria);
 ```
+4. Escribe una función que acepte un arreglo de números y una función callback que devuelva un nuevo arreglo con los elementos transformados (duplicados) por la función.
+```js
+function transformarElementos(arr, transformacion) {
+  let nuevoArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    nuevoArr.push(transformacion(arr[i]));
+  }
+  return nuevoArr;
+}
+
+function duplicar(num) {
+  return num * 2;
+}
+
+console.log(transformarElementos([1, 2, 3, 4, 5], duplicar)); // Output: [2, 4, 6, 8, 10]
+
+```
+
+
