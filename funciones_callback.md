@@ -132,3 +132,21 @@ console.log(sumaPares);
 ```
 <table><tbody><tr><td></td><td>acumulador</td><td>valorActual</td><td>resultado</td></tr><tr><td>Primera</td><td>0</td><td>5</td><td>5</td></tr><tr><td>Segunda</td><td>5</td><td>10</td><td>15</td></tr><tr><td>Tercera</td><td>15</td><td>2</td><td>17</td></tr></tbody></table>
 
+
+Explicacion metodo **reduce**
+**Metodo reduce**
+```js
+
+const array = [5, 10, 2];
+const sumatoria = array.reduce((acum, item, index, arr) => {
+  return  acum = acum+ item;
+}, 0);
+
+//acum : acumulador
+//item : elemento del arreglo, representa el elemento actual
+//index : indice del elemento actual (no se usa en ente ejemplo)
+//arr : referencia al arreglo (no se usa en este ejemplo)
+// el 0 es el valor inicial del acumulador, si se omite comienza desde el primer elemento
+
+console.log(sumatoria);
+```
