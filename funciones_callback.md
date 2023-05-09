@@ -124,11 +124,11 @@ console.log(sumarElementos([1, 2, 3, 4, 5], esPar)); // Output: 6 (2 + 4)
 ```
 Usando el método *reduce*
 ```js
-const pares = [1, 2, 3, 4, 5].filter(num => num % 2 === 0 );
+const pares = [5, 10, 2].filter(num => num % 2 === 0 );
 
 const sumaPares = pares.reduce((acumulador, valActual) =>  acumulador + valActual);
 
 console.log(sumaPares);
 ```
-<<table><tbody><tr><td></td><td>acumulador</td><td>valorActual</td><td>resultado</td></tr><tr><td>Primera</td><td>0</td><td>5</td><td>5</td></tr><tr><td>Segunda</td><td>5</td><td>10</td><td>15</td></tr><tr><td>Tercera</td><td>15</td><td>2</td><td>17</td></tr></tbody></table>
+<table><tbody><tr><td></td><td>acumulador</td><td>valorActual</td><td>resultado</td></tr><tr><td>Primera</td><td>0</td><td>5</td><td>5</td></tr><tr><td>Segunda</td><td>5</td><td>10</td><td>15</td></tr><tr><td>Tercera</td><td>15</td><td>2</td><td>17</td></tr></tbody></table>
 
