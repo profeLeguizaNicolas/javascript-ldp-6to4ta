@@ -75,7 +75,7 @@ Grupo 3:
 **Nota 1:** utiliza ciclos anidados para solucionar este ejercicio
 **Nota 2:** agrega dos espacios al principio de cada nombre
 
-Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-20-js-septiembre-2022/6342).
+[solución](ejercicio-20.js)
 
 ## Ejercicio 21
 
@@ -99,7 +99,7 @@ El resultado debería ser el siguiente:
 
 **Nota:** este ejercicio lo debes hacer con ciclos y sin ayuda de la función `filter` de JavaScript. Al terminarlo cambia el arreglo original para verificar que funcione con otros números.
 
-Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-21-js-septiembre-2022/6343).
+[solución](ejercicio-21.js)
 
 ## Ejercicio 22
 
@@ -117,4 +117,4 @@ El resultado debería ser el siguiente:
 
 **Nota:** este ejercicio lo debes hacer con ciclos y sin ayuda de la función `filter` de JavaScript. Al terminarlo, cambia el arreglo original para verificar que funcione con otras combinaciones de ceros y unos.
 
-Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-22-js-septiembre-2022/6344).
+[solución](ejercicio-22.js)
