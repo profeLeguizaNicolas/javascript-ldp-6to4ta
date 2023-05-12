@@ -1,3 +1,5 @@
+# Basicos secuenciales
+
 ## Ejercicio 1
 
 Escribe un programa que le pida al usuario ingresar una frase y la imprima en la consola.
