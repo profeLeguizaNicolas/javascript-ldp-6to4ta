@@ -74,7 +74,7 @@ Escribe un programa que le pida al usuario un número e imprima si es un múltip
 
 Si es múltiplo debe imprimir "Si, el número x es múltiplo 5", de lo contrario debe imprimir "No, el número x no es múltiplo de 5".
 
-[solucion](ejercicio-8.js).
+[solucion](ejercicio-8.js)
 
 ## Ejercicio 9
 
@@ -86,7 +86,7 @@ Si el número es mayor a 10 debe imprimir "El número es mayor que 10".
 
 Si el número es igual a 10 debe imprimir "El número es igual a 10".
 
-[solución](ejercicio-9.js).
+[solución](ejercicio-9.js)
 
 ## Ejercicio 10
 
@@ -106,7 +106,7 @@ Escribe un programa que le pida al usuario su peso y altura. El programa deberá
 * "Sobrepeso" si está entre 25 y 29.9
 * "Obeso" si es igual o mayor a 30
 
-[solución](ejercicio-10.js).
+[solución](ejercicio-10.js)
 
 ## Ejercicio 11
 
@@ -117,5 +117,80 @@ Escribe un programa que le pida al usuario ingresar un número.
 * Si el número es múltiplo tanto de 3 como de 5 debe imprimir en la consola "bingbong".
 * Si no cumple ninguna de las condiciones anteriores debe imprimir el mismo número.
 
-[solución](ejercicio-11.js).
+[solución](ejercicio-11.js)
+
+# Basicos ciclos
+
+## Ejercicio 12
+
+Escribe un programa que le pida al usuario ingresar una frase. El programa debe imprimir la frase en la consola 10 veces.
+
+**Nota:** utiliza un ciclo para imprimir la frase las 10 veces.
+
+[solución](ejercicio-12.js)
+
+## Ejercicio 13
+
+Escribe un programa que le pida al usuario una frase y un número. El programa debe imprimir la frase en la consola el número de veces que ingresó el usuario.
+
+Por ejemplo, si el usuario ingresó la frase "Hola Mundo" y el número 5, el programa debe imprimir "Hola Mundo" 5 veces:
+
+```
+Hola Mundo
+Hola Mundo
+Hola Mundo
+Hola Mundo
+Hola Mundo
+```
+
+[solución](ejercicio-13.js)
+
+## Ejercicio 14
+
+Escribe un programa para la consola que le pida al usuario un número e imprima los números desde 1 hasta el número.
+
+Por ejemplo, si el usuario ingresa el número 5, el programa de be imprimir:
+
+```
+1
+2
+3
+4
+5
+```
+
+[solución](ejercicio-14.js)
+
+## Ejercicio 15
+
+Escribe un programa para la consola que le pida al usuario un número y sume todos los números desde 1 hasta ese número.
+
+Por ejemplo, si el usuario ingresa el número 5, el programa debe imprimir 15 (1+2+3+4+5). Si el usuario ingresa el número 10, el programa debe imprimir 55.
+
+[solución](ejercicio-15.js)
+
+## Ejercicio 16
+
+Escribe un programa para la consola que le pida al usuario dos números e imprima en la consola los números en ese rango. Por ejemplo, si el usuario ingresa 5 como primer número y 10 como segundo número, el programa debe imprimir:
+
+```
+5
+6
+7
+8
+9
+10
+```
+
+Nota 1: Puedes asumir que el primer número siempre va a ser menor o igual que el segundo.
+
+Nota 2: Fijate que se imprimen también los números en los límites, en el ejemplo el 5 y el 10.
+
+[solución](ejercicio-16.js)
+
+## Ejercicio 17
+
+Escribe un programa que piense un número de forma aleatoria y le pida al usuario que lo trate de adivinar (como en uno de los ejercicios anteriores). La diferencia es que esta vez el usuario puede intentar indefinidamente hasta que encuentre el número.
+
+[solución](ejercicio-17.js)
 
