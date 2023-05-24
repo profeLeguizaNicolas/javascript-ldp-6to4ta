@@ -37,4 +37,37 @@ const respuesta = esVocal('e');
 console.log(respuesta) // respuesta: true
 ```
 
+## Ejercicio 3
+Crea una función llamada generar_caracteres() que tome como parámetro un número entero (n) y un carácter, retornar el carácter multiplicado por n. Por ejemplo, generar_caracteres(5,x), debería retornar «xxxxx».
+
+```js
+const generar_caracteres = (numero, caracter) => {
+    let resp = ''
+    for (let i = 0; i < numero; i++) {
+        resp += caracter;
+    }
+
+    return resp;
+
+}
+
+const respuesta = generar_caracteres(7, 'x');
+console.log(respuesta) // respuesta: xxxxxxx
+```
+
+
+## Ejercicio 4
+Crear una función inversa() que calcule la inversión de una cadena y lo retorne. Por ejemplo, la cadena «Hola Mundo» debería retornar la cadena «odnum aloh» (retornar todo el String en minúsculas).
+```js
+const inversa = (cadena) => {
+
+    let invertida = (cadena).toLowerCase().split('').reverse().join('');
+    return invertida;
+
+}
+
+const respuesta = inversa('Hola Mundo');
+console.log(respuesta); // respuesta: odnum aloh
+```
+
 
