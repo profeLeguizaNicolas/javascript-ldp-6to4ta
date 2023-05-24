@@ -54,5 +54,33 @@ const numeros = [1, 2, 3, 4, 5];
 const palabras = ['manzana', 'pera', 'banana', 'naranja'];
 ```
 
+#### 9. - Verificar si todos los elementos de un arreglo cumplen una condición externa. Que sean menores a 10
+```js
+const numeros = [1, 2, 3, 4, 5];
+```
+
+#### 10. - Sumar todos los elementos de un arreglo
+```js
+const numeros = [1, 2, 3, 4, 5];
+```
+
+#### 10. - Concatenar elementos de un arreglo en una cadena
+```js 
+const palabras = ['Hola', ' ', 'Mundo', '!'];
+```
+#### 11. - Calcular el promedio de un arreglo de números
+
+```js
+const numeros = [5, 10, 15, 20, 25];
+```
+
+#### 11. - Encontrar el número máximo de un arreglo
+
+```js
+const numeros = [10, 5, 8, 3, 12];
+```
+
+
+
 
 
