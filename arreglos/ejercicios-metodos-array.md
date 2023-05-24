@@ -342,7 +342,59 @@ console.log(primerElementoCumpliendoCondicion); // Resultado: 4
 
 ## findIndex()
 
+Ejercicio 1: Encontrar el índice del primer número par en un arreglo
 
+```js
+const numeros = [1, 3, 5, 2, 4, 6];
+
+const indiceNumeroPar = numeros.findIndex((numero) => numero % 2 === 0);
+
+console.log(indiceNumeroPar); // Resultado: 3
+
+```
+
+Ejercicio 2: Encontrar el índice de la primera palabra que empieza con una letra específica
+
+```js
+const palabras = ['manzana', 'pera', 'banana', 'naranja'];
+
+const letraInicial = 'p';
+
+const indicePalabraEncontrada = palabras.findIndex((palabra) => palabra.charAt(0) === letraInicial);
+
+console.log(indicePalabraEncontrada); // Resultado: 1
+
+```
+
+Ejercicio 3: Encontrar el índice del primer objeto que cumple una condición específica
+
+```js
+const personas = [
+  { nombre: 'Juan', edad: 25 },
+  { nombre: 'María', edad: 30 },
+  { nombre: 'Pedro', edad: 20 },
+];
+
+const indicePersonaEncontrada = personas.findIndex((persona) => persona.edad > 25);
+
+console.log(indicePersonaEncontrada); // Resultado: 1
+
+```
+
+Ejercicio 4: Encontrar el índice del primer elemento de un arreglo basado en una función externa
+
+```js
+const numeros = [1, 2, 3, 4, 5];
+
+function esMayorA3(numero) {
+  return numero > 3;
+}
+
+const indicePrimerElementoCumpliendoCondicion = numeros.findIndex(esMayorA3);
+
+console.log(indicePrimerElementoCumpliendoCondicion); // Resultado: 3
+
+```
 
 
 
