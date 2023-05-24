@@ -1,5 +1,5 @@
 # Metodos array
-### map()
+## map()
 #### Ejercicio 1: 
 Duplicar elementos de un arreglo.
 ```js
