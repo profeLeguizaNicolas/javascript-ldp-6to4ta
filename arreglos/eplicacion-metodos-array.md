@@ -22,3 +22,24 @@ const personas = [
 ];
 ```
 
+#### 3. - Filtrar nombres que empiezan con una letra específica
+ ```js
+const nombres = ['Juan', 'María', 'Pedro', 'Ana', 'Carlos'];
+ ```
+#### 4. - Filtrar elementos de un arreglo basados en una función externa. La función externa debe retornar los números mayores a 2
+```js
+const numeros = [1, 2, 3, 4, 5];
+```
+#### 5. Filtrar objetos basados en una condición
+```js
+const personas = [
+  { nombre: 'Juan', edad: 25 },
+  { nombre: 'María', edad: 30 },
+  { nombre: 'Pedro', edad: 20 },
+  { nombre: 'Ana', edad: 35 },
+];
+```
+
+
+
+
