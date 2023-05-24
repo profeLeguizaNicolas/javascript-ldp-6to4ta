@@ -174,3 +174,55 @@ const hayNumerosMayoresA5 = numeros.some(esMayorA5);
 console.log(hayNumerosMayoresA5); // Resultado: false
 
 ```
+## every()
+Ejercicio 1: Verificar si todos los números son mayores que cero
+
+```js
+const numeros = [1, 2, 3, 4, 5];
+
+const sonTodosPositivos = numeros.every((numero) => numero > 0);
+
+console.log(sonTodosPositivos); // Resultado: true
+
+```
+
+Ejercicio 2: Verificar si todas las palabras tienen al menos tres caracteres
+
+```js
+const palabras = ['manzana', 'pera', 'banana', 'naranja'];
+
+const tienenTresCaracteres = palabras.every((palabra) => palabra.length >= 3);
+
+console.log(tienenTresCaracteres); // Resultado: true
+
+```
+
+Ejercicio 3: Verificar si todas las personas son mayores de edad
+
+```js
+const personas = [
+  { nombre: 'Juan', edad: 25 },
+  { nombre: 'María', edad: 17 },
+  { nombre: 'Pedro', edad: 20 },
+];
+
+const sonTodosMayoresDeEdad = personas.every((persona) => persona.edad >= 18);
+
+console.log(sonTodosMayoresDeEdad); // Resultado: false
+
+```
+
+Ejercicio 4: Verificar si todos los elementos de un arreglo cumplen una condición externa
+
+```js
+const numeros = [1, 2, 3, 4, 5];
+
+function esMenorA10(numero) {
+  return numero < 10;
+}
+
+const todosMenoresA10 = numeros.every(esMenorA10);
+
+console.log(todosMenoresA10); // Resultado: true
+
+```
