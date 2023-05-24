@@ -39,7 +39,20 @@ const personas = [
   { nombre: 'Ana', edad: 35 },
 ];
 ```
+#### 6. - Verificar si al menos un número cumple con una condición
+```js
+const numeros = [1, 2, 3, 4, 5];
+```
 
+#### 7. - Verificar si al menos un elemento de un arreglo cumple una condición externa. La condicion externa debe ser mayor que 5
+```js
+const numeros = [1, 2, 3, 4, 5];
+```
+
+#### 8. - Verificar si todas las palabras tienen al menos tres caracteres
+```js
+const palabras = ['manzana', 'pera', 'banana', 'naranja'];
+```
 
 
 
