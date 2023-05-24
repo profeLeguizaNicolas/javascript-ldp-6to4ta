@@ -74,11 +74,46 @@ const palabras = ['Hola', ' ', 'Mundo', '!'];
 const numeros = [5, 10, 15, 20, 25];
 ```
 
-#### 11. - Encontrar el número máximo de un arreglo
+#### 12. - Encontrar el número máximo de un arreglo
 
 ```js
 const numeros = [10, 5, 8, 3, 12];
 ```
+
+#### 13. - Encontrar el primer número par de un arreglo
+```js
+const numeros = [1, 2, 3, 4, 5];
+```
+#### 14. - Encontrar la primera palabra que empieza con una letra específica
+
+```js
+const palabras = ['manzana', 'pera', 'banana', 'naranja'];
+
+const letraInicial = 'p';
+```
+####  15. - Encontrar el primer elemento de un arreglo basado en una función externa. La funcion retorna > 3
+
+```js
+const numeros = [1, 2, 3, 4, 5];
+```
+
+#### 16. - Encontrar el índice del primer objeto que cumple una condición específica
+
+```js
+const personas = [
+  { nombre: 'Juan', edad: 25 },
+  { nombre: 'María', edad: 30 },
+  { nombre: 'Pedro', edad: 20 },
+];
+
+```
+
+#### 17. Encontrar el índice del primer elemento de un arreglo basado en una función externa. La funcion retorna > 3
+
+```js
+const numeros = [1, 2, 3, 4, 5];
+```
+
 
 
 
