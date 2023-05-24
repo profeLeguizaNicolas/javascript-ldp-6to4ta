@@ -186,7 +186,8 @@ console.log(sonTodosPositivos); // Resultado: true
 
 ```
 
-Ejercicio 2: Verificar si todas las palabras tienen al menos tres caracteres
+#### Ejercicio 2: 
+Verificar si todas las palabras tienen al menos tres caracteres
 
 ```js
 const palabras = ['manzana', 'pera', 'banana', 'naranja'];
@@ -197,7 +198,8 @@ console.log(tienenTresCaracteres); // Resultado: true
 
 ```
 
-Ejercicio 3: Verificar si todas las personas son mayores de edad
+#### Ejercicio 3: 
+Verificar si todas las personas son mayores de edad
 
 ```js
 const personas = [
@@ -212,7 +214,8 @@ console.log(sonTodosMayoresDeEdad); // Resultado: false
 
 ```
 
-Ejercicio 4: Verificar si todos los elementos de un arreglo cumplen una condición externa
+#### Ejercicio 4: 
+Verificar si todos los elementos de un arreglo cumplen una condición externa
 
 ```js
 const numeros = [1, 2, 3, 4, 5];
@@ -226,3 +229,63 @@ const todosMenoresA10 = numeros.every(esMenorA10);
 console.log(todosMenoresA10); // Resultado: true
 
 ```
+## reduce()
+#### Ejercicio 1: 
+Sumar todos los elementos de un arreglo
+
+```js
+const numeros = [1, 2, 3, 4, 5];
+
+const suma = numeros.reduce((acumulador, numero) => acumulador + numero, 0);
+
+console.log(suma); // Resultado: 15
+
+```
+
+#### Ejercicio 2: 
+Concatenar elementos de un arreglo en una cadena
+
+```js
+const palabras = ['Hola', ' ', 'Mundo', '!'];
+
+const cadena = palabras.reduce((acumulador, palabra) => acumulador + palabra, '');
+
+console.log(cadena); // Resultado: 'Hola Mundo!'
+
+```
+#### Ejercicio 3: 
+Encontrar el número máximo de un arreglo
+
+```js
+const numeros = [10, 5, 8, 3, 12];
+
+const maximo = numeros.reduce((acumulador, numero) => (acumulador > numero ? acumulador : numero));
+
+console.log(maximo); // Resultado: 12
+
+```
+
+#### Ejercicio 4: 
+Calcular el promedio de un arreglo de números
+
+```js
+const numeros = [5, 10, 15, 20, 25];
+
+const promedio = numeros.reduce((acumulador, numero, indice, arreglo) => {
+  acumulador += numero;
+  if (indice === arreglo.length - 1) {
+    return acumulador / arreglo.length;
+  } else {
+    return acumulador;
+  }
+}, 0);
+
+console.log(promedio); // Resultado: 15
+
+```
+
+## find()
+
+
+
+## findIndex()
