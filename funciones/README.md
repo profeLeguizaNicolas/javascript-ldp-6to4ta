@@ -70,4 +70,77 @@ const respuesta = inversa('Hola Mundo');
 console.log(respuesta); // respuesta: odnum aloh
 ```
 
+## Ejercicio 5
+Crear una función sumaArreglo() que tome como parámetro un arreglo de números, retornar la longitud del arreglo + la suma de todos los números del arreglo.
+
+```js 
+const sumaArreglo = (arreglo) => {
+
+    const longitudArreglo = arreglo.length;
+    let sumaArreglo = 0;
+    for (let i = 0; i < longitudArreglo; i++) {
+        sumaArreglo += arreglo[i];
+    }
+
+    return sumaArreglo + longitudArreglo;
+ }
+const respuesta = sumaArreglo([2, 5, 7,##  2]);
+consle.log(respuesta) // respuesta: 20
+
+```
+
+## Ejercicio 6
+Crear una función multiplicarArreglo() que tome como parámetro un arreglo de números, retornar la multiplicación del número menor del arreglo y el número mayor del arreglo.
+
+```js
+const multiplicarArreglo = (arreglo) => {
+
+    const minimo = Math.min(...arreglo);
+    const maximo = Math.max(...arreglo);
+    return minimo * maximo;
+}
+
+const respuesta = sumaArreglo([2, 5, 7, 2]);
+console.log(respuesta) // respuesta: 14
+
+``` 
+## Ejercicio 7
+Crear una función con el nombre de booleanoArray() que tome dos arreglos de números como parámetro y que retorne un booleano, unir los dos arreglos en uno solo, si la longitud de el nuevo arreglo es mayor o igual a 10 que retorne true si es menor a 10 que retorne false.
+
+```js
+const funcionArray = (array1, array2) => {
+
+    let = nuevoArreglo = [...array1, ...array2];
+    if (nuevoArreglo.length >= 10) {
+        return true;
+    } else {
+        return false
+    }
+
+}
+
+const respuesta = funcionArray([2, 5, 2, 3, 7, 2], [1, 5, 3, 3]);
+console.log(respuesta) // respuesta: true
+
+```
+## Ejercicio 8
+Crear una función con el nombre de funcionArray() que tome dos arreglos de números enteros como parámetro y retornar un único arreglo, cada elemento del arreglo debe estar multiplicado por dos. ej: [2,5,2][1,5,3] -> [4,10,4,2,10,6].
+
+```js
+const funcionArray = (array1, array2) => {
+
+    let = nuevoArreglo = [...array1, ...array2];
+    nuevoArreglo = nuevoArreglo.map((elemento) => {
+        return elemento * 2
+    });
+
+    return nuevoArreglo;
+
+
+}
+
+const respuesta = funcionArray([2, 5, 2], [1, 5, 3]);
+console.log(respuesta) // respuesta: (6) [4, 10, 4, 2, 10, 6]
+
+```
 
