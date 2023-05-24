@@ -286,6 +286,65 @@ console.log(promedio); // Resultado: 15
 
 ## find()
 
+#### Ejercicio 1: Encontrar el primer número par de un arreglo
 
+```js
+const numeros = [1, 3, 5, 2, 4, 6];
+
+const numeroPar = numeros.find((numero) => numero % 2 === 0);
+
+console.log(numeroPar); // Resultado: 2
+
+```
+
+#### Ejercicio 2: Encontrar la primera palabra que empieza con una letra específica
+
+```js
+const palabras = ['manzana', 'pera', 'banana', 'naranja'];
+
+const letraInicial = 'p';
+
+const palabraEncontrada = palabras.find((palabra) => palabra.charAt(0) === letraInicial);
+
+console.log(palabraEncontrada); // Resultado: 'pera'
+
+```
+#### Ejercicio 3: Encontrar el primer objeto que cumple una condición específica
+
+```js
+const personas = [
+  { nombre: 'Juan', edad: 25 },
+  { nombre: 'María', edad: 30 },
+  { nombre: 'Pedro', edad: 20 },
+];
+
+const personaEncontrada = personas.find((persona) => persona.edad > 25);
+
+console.log(personaEncontrada);
+// Resultado:
+// { nombre: 'María', edad: 30 }
+
+```
+#### Ejercicio 4: Encontrar el primer elemento de un arreglo basado en una función externa
+
+```js
+const numeros = [1, 2, 3, 4, 5];
+
+function esMayorA3(numero) {
+  return numero > 3;
+}
+
+const primerElementoCumpliendoCondicion = numeros.find(esMayorA3);
+
+console.log(primerElementoCumpliendoCondicion); // Resultado: 4
+
+```
 
 ## findIndex()
+
+
+
+
+
+
+
