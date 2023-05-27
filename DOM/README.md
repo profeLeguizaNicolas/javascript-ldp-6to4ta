@@ -19,4 +19,23 @@ DOM transforma una página en una estructura. Dicha estructura tiene forma de ar
 ```
 
 #### Se transformará en el siguiente árbol:
+![DOM](dom.png)
+
+Este es un ejemplo muy sencillo. Como podemos imaginar, lo habitual en una página cualquiera por la que naveguemos
+es que tenga muchísimos nodos, cientos de ellos.
+
+### Tipos de nodos
+Si bien existen hasta 12 tipos de nodos, para manipular mediante DOM nuestras páginas nos basta con los que
+detallamos a continuación:
+
+- **Documento**: es el principal, de él partirán todos los demás nodos que componen nuestra página. También le podemos llamar nodo raíz.
+- **Elemento**: existirá uno por cada una de las etiquetas de HTML. De él pueden derivarse otros nodos.
+- **Atributo**: representa los atributos de HTML.
+- **Texto**: representa el texto de la página.
+
+
+
+
+
+
 
