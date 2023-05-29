@@ -24,4 +24,4 @@
 	-Crear un archivo style.css para dar formato a la pagina.
 	-Establecer un formato similar a la figura
 	
-	![tabla](tabla-desafio1.png)
+	![tabla](/tabla-desafio1.png)
