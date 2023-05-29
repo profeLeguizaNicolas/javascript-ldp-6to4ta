@@ -22,6 +22,6 @@
 	-Crear un archivo index.html que contenga una tabla con los atributos del objeto creado.
 	-Mostrar el contenido del arreglo de objetos en la tabla.
 	-Crear un archivo style.css para dar formato a la pagina.
-	-Establecer un formato similar a la figura
-	
-	![tabla](/desafios/tabla-desafio1.png)
+
+##### Establecer un formato similar a la figura
+![tabla](/desafios/tabla-desafio1.png)
