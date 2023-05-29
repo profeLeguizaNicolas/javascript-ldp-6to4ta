@@ -1,0 +1,32 @@
+table {
+    border: 1px solid #000;
+    width: 500px;
+    font: normal 13px Arial;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #555;
+}
+
+table th {
+    border: 1px solid #555;
+    font: bold 15px Arial;
+    background-color: lightblue;
+
+    /* border-top: 4px solid #aabcfe; 
+    /*border-bottom: 1px solid #fff; color: #039; */
+}
+
+
+caption {
+    text-align: center;
+    font: bold 25px Arial;
+   
+}
+
+tr:hover td {
+    background: #d0dafd;
+    color: #339;
+}
