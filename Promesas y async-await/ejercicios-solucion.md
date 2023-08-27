@@ -44,6 +44,30 @@ fetch('https://jsonplaceholder.typicode.com/posts/99999')
   .then(data => console.log(data))
   .catch(error => console.error('Error:', error));
 ```
+4 Realizar una solicitud GET con parámetros de consulta. Ejemplo /post/${postId} postId puede tomar cualquier valor válido
+```js
+const postId = 1;
+fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error:', error));
+```
+5 Realizar una solicitud GET con async/await del recurso /post/1
+```js
+async function fetchData() {
+  try {
+    const response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
+
+fetchData();
+```   
+
+
 
 
 
