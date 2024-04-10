@@ -630,7 +630,7 @@ const webTechs = [
 webTechs.sort();
 console.log(webTechs); // ["CSS", "HTML", "JavaScript", "MongoDB", "Node", "React", "Redux"]
 
-webTechs.reverse(); // after sorting we can reverse it
+webTechs.reverse(); // después de ordenar podemos revertirlo
 console.log(webTechs); // ["Redux", "React", "Node", "MongoDB", "JavaScript", "HTML", "CSS"]
 ```
 
